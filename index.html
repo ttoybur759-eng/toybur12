@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <title>Toybur Stylish Name Generator</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Lobster&family=Pacifico&family=Orbitron:wght@500&family=Special+Elite&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: #e8f4ff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .header {
+            background: #0065b3;
+            padding: 22px;
+            color: white;
+            font-size: 32px;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            font-weight: bold;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        }
+
+        input {
+            width: 80%;
+            padding: 14px;
+            font-size: 20px;
+            border: 2px solid #0065b3;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .box {
+            background: white;
+            padding: 12px;
+            margin: 12px auto;
+            width: 85%;
+            border-radius: 10px;
+            font-size: 24px;
+            border: 1px solid #c6e4ff;
+            box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+        }
+
+        .footer {
+            margin-top: 35px;
+            background: #0065b3;
+            color: white;
+            padding: 14px;
+            border-radius: 10px;
+            font-size: 18px;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="header">🔥 Toybur Stylish Name Generator 🔥</div>
+    <h2>Created by 💙 Toybur Studio</h2>
+
+    <input type="text" id="userName" placeholder="Write Your Name..." onkeyup="generate()">
+
+    <div id="result"></div>
+
+    <div class="footer">© 2026 • Designed by Toybur</div>
+
+    <script>
+        function generate() {
+            let name = document.getElementById("userName").value;
+            let r = document.getElementById("result");
+
+            if(name.trim() === "") { r.innerHTML = ""; return; }
+
+            r.innerHTML = `
+
+                <!-- DEFAULT STYLES  -->
+                <div class="box">★ ${name} ★</div>
+                <div class="box">✦✦ ${name} ✦✦</div>
+                <div class="box">♡ ${name} ♡</div>
+                <div class="box">⚡ ${name} ⚡</div>
+                <div class="box">✪ ${name} ✪</div>
+                <div class="box">『 ${name} 』</div>
+                <div class="box">★彡 ${name} 彡★</div>
+                <div class="box">♛ ${name} ♛</div>
+                <div class="box">꧁༺ ${name} ༻꧂</div>
+                <div class="box">✰ ${name} ✰</div>
+                <div class="box">✿ ${name} ✿</div>
+
+                <!-- FONT: LOBSTER -->
+                <div class="box" style="font-family:'Lobster';">🔥 ${name} 🔥</div>
+                <div class="box" style="font-family:'Lobster';">💎 ${name} 💎</div>
+
+                <!-- FONT: PACIFICO -->
+                <div class="box" style="font-family:'Pacifico';">${name}</div>
+                <div class="box" style="font-family:'Pacifico';">✨ ${name} ✨</div>
+
+                <!-- FONT: ORBITRON -->
+                <div class="box" style="font-family:'Orbitron';">${name}</div>
+                <div class="box" style="font-family:'Orbitron';">▶ ${name} ◀</div>
+
+                <!-- FONT: SPECIAL ELITE -->
+                <div class="box" style="font-family:'Special Elite';">${name}</div>
+                <div class="box" style="font-family:'Special Elite';">🖤 ${name} 🖤</div>
+
+                <!-- MORE 50+ STYLE DESIGNS -->
+                <div class="box">◆◇◆ ${name} ◆◇◆</div>
+                <div class="box">✧ ${name} ✧</div>
+                <div class="box">✢ ${name} ✢</div>
+                <div class="box">✥ ${name} ✥</div>
+                <div class="box">✺ ${name} ✺</div>
+                <div class="box">✵ ${name} ✵</div>
+                <div class="box">✦ ${name} ✦</div>
+                <div class="box">➳ ${name} ➳</div>
+                <div class="box">➵ ${name} ➵</div>
+                <div class="box">✪彡 ${name} 彡✪</div>
+                <div class="box">𓆩 ${name} 𓆪</div>
+                <div class="box">𖣘 ${name} 𖣘</div>
+                <div class="box">𖠁 ${name} 𖠁</div>
+                <div class="box">ꕥ ${name} ꕥ</div>
+                <div class="box">✺❁ ${name} ❁✺</div>
+                <div class="box">✬ ${name} ✬</div>
+                <div class="box">✯ ${name} ✯</div>
+                <div class="box">❖ ${name} ❖</div>
+                <div class="box">❀ ${name} ❀</div>
+                <div class="box">❃ ${name} ❃</div>
+                <div class="box">❊ ${name} ❊</div>
+                <div class="box">✘✘ ${name} ✘✘</div>
+                <div class="box">✚ ${name} ✚</div>
+                <div class="box">⊹ ${name} ⊹</div>
+                <div class="box">✢✣ ${name} ✣✢</div>
+                <div class="box">✤ ${name} ✤</div>
+                <div class="box">✶ ${name} ✶</div>
+                <div class="box">✷ ${name} ✷</div>
+                <div class="box">✸ ${name} ✸</div>
+                <div class="box">⍟ ${name} ⍟</div>
+                <div class="box">⍣ ${name} ⍣</div>
+
+                <!-- TOYBUR SPECIAL -->
+                <div class="box" style="font-family:'Lobster'; color:#0065b3;">
+                    🔷 Toybur Signature Style: ${name} 🔷
+                </div>
+
+            `;
+        }
+    </script>
+
+</body>
+</html>
